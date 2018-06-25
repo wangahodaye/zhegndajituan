@@ -1,0 +1,127 @@
+﻿/*
+* name: Mobile && SmallScreen StyleSheet
+* version: v1.1.1
+* update: 320 bug
+* date: 2016-03-12
+*/
+
+/* <640 */
+
+/*header*/
+.pageHeader { height:103px; }
+.top02 .logo { font-size:1em; }
+.mobile_key { top:38px; }
+
+/*footer*/
+.foot01 .left,.foot01 .right { float:none; width:100%; }
+.foot01 .right { text-align:center; }
+.foot01 .fdown .key_pro_tt { position:static; }
+.foot01 .fdown .key_pros { padding-left:0px; }
+.foot01 .fdown .kp_li { display:block; }
+.foot02 { padding-top:10px; text-align:center; font-size:13px; line-height:20px; }
+.foot02 .copyright,.foot02 .sign { float:none; margin-bottom:10px; }
+
+/*首页*/
+/*ibanner*/
+.ibanner { padding-bottom:40%; }
+.ibanner .arr_prev, .ibanner .arr_next, .ibanner_wrap .slide_content { display:none; }
+.ibanner .slide_nav { bottom:17px; }
+/*ipart01*/
+.ipart01 .p_tt { padding:30px 0 20px; font-size:26px; }
+.ip01_list .smal-12 { margin-right:0; margin-bottom:40px; width:100%; }
+.ip01_list .item { margin-left:auto; margin-right:auto; max-width:386px; }
+/*ipart02*/
+.ip02_top { height:auto; }
+.ip02_top ._detail { padding-left:0; padding-right:0; }
+.ip02_top ._detail ._tt { font-size:20px; }
+.ip02_list { display:none; }
+/*ipart03*/
+.ipart03 ._tt { font-size:20px; }
+.ipart03 ._wd { font-size:16px; }
+
+/*下层-通用*/
+.xc_nav_wrap{display: none;}
+
+/*新闻-详情*/
+.widget-newsdetail-8 ._detailPage_bottom li ._mark{width:24%;}
+.widget-newsdetail-8 .n_left { width:100%; padding:20px 0; background-color:transparent; }
+.widget-newsdetail-8 ._head ._title { font-size:18px; }
+.widget-newsdetail-8 .n_right { display:none; }
+
+/*关于我们*/
+/*part01*/
+.about .part01 .left { width:100%; }
+.num_list li .num_wrap { padding:40px 0; border-left:none; border-right:none; border-bottom:#eaeaea 1px solid; }
+/*part03*/
+.about .part03 { display:none; }
+.abt04_item { max-width:286px; margin:0 auto 40px; }
+
+/*2016-10-17*/
+/*header*/
+.top01 .lan { float:left; }
+.top01 .lan ._choose > ._i { padding-left:10px; }
+.top01 .search input { width:120px; }
+/*产品-详情02*/
+.pro_det02 .det_bg { background-color:#f0f0f0; }
+.pro_det02 .det_bg .cban_t_wrap { position:static; padding-top:50px; width:100%; }
+.pro_det02 .det_bg .cban_t_wrap .cban_tt,.pro_det02 .det_bg .cban_t_wrap .cban_wd { color:#212121; }
+.pro_det02 .det_bg .wrap, .pro_det02 .det_bg .cban_t_wrap { position:static; left:0; }
+.pro_det02 .det_bg .pro_pic { position:static; text-align:center; }
+.pro_det02 .det_bg .pro_pic img { width:210px; height:277px; }
+
+/*20161104*/
+/*关于我们综合页*/
+.about .part04 .abt04_item ._num{top: 175px;}
+.about .p01_pic{display: none;}
+.about .part01{height: auto;}
+/*药品列表页*/
+.oh .drug_list .list_tit ._tit_con{height: 59px;padding-top: 7px;}
+.oh .drug_list .scroll_item{width: 74%;;margin-left: 8%;}
+.cmain .pro_list2 .table_pt th,.cmain .pro_list2 .table_pt td{padding-left: 2%;padding-right: 2%;}
+/*R&D页*/
+.research .i_prolist{display: none;}
+
+/*20161105*/
+/*合作伙伴*/
+.partner_abt .part02_bg .wrap{padding-top: 30px;}
+.partner_abt .part02_bg .wrap .ptitle_fix{padding-bottom: 20px;}
+.partner_abt .part02 .txt_box{width: 100%;}
+.partner_abt .part02 .left{width: 51%;}
+.partner_abt .part02 .right{width: 41%;}
+.partner_abt .part02_bg{height: auto;background: #E0E4E7}
+.partner_abt .partner_list ._cell ._img{width: 100%;}
+.partner_abt .partner_list ._cell ._hd{font-size: 14px;}
+.share_list .stButton, .share_list .stYoutube{padding:8px 32px;}
+/*招聘*/
+.job-sear .t-pt{font-size: 12px;padding-right: 5px;}
+.job-sear .sear_input{width: 60.6%;}
+.job-sear button[type=submit]{width: 26.5%;font-size: 12px;}
+
+.iMain_con .ip01_list ._wd{height: auto;}
+
+/*20161109*/
+.pro_det03 .part01 .pro_pic{top: 0;left: 11.5%;}
+.job_det ._tool{padding: 7px 15px;}
+/* <=320 */
+@media only screen and (max-device-width: 479px){
+
+
+/*产品：联系我们*/
+.pro_contact .ct_box_down ._cbd_inn._half { float:none; width:100%; }
+
+/*20161104*/
+    /*头部导航*/
+    .pageHeader .top01 .wrap{padding-left: 1%;padding-right: 1%;}
+    .pageHeader .top01 .lan{padding-right: 0;}
+    .pageHeader .top02 .mobile_key{top: 42px;}
+    /*药品列表页*/
+    .cmain .pro_list2 .table_pt th{font-size: 13px;line-height: 31px}
+    .cmain .pro_list2 .table_pt td{font-size: 12px;}
+    /*新闻页*/
+    .news_list .item ._list_box ._list_main ._title{font-size: 16px;}
+    /*合作伙伴*/
+    .partner_abt .cata_list ul>.shadow_box{width: 48%;}
+    .partner_abt .partner_list ._cell ._hd{font-size: 12px;}
+    .partner_abt .partner_list ._cell ._bd{font-size: 12px;}
+    /*工作页*/
+}

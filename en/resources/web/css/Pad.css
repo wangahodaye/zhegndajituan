@@ -1,0 +1,164 @@
+﻿/*
+* name: Pad && MiddleScreen StyleSheet
+* version: v1.1.1
+* update: 768 bug
+* date: 2016-03-12
+*/
+
+/* <1024 */
+
+/*header*/
+.pageNav { height:0; overflow:hidden; }
+.mobile_key { display:block; }
+
+/*footer*/
+.iMain { position:static; margin-bottom:0; }
+.pageFooter { position:static; }
+
+/*首页*/
+/*ibanner*/
+/*.ibanner { padding-bottom:26%; height:0; }
+.ibanner img { position:static; left:0; margin:0; width:100%; height:100%; }
+.ibanner .arr_prev, .ibanner .arr_next, .ibanner_wrap .slide_content { top:10%; left:0; margin-left:0; }*/
+.ibanner,.ibanner img { /*height:420px*/ height:334px; }
+.ibanner img { margin-left:-608px; width:1216px; }
+.ibanner .slide_nav { width:100%; left:auto; right:0; margin:0; padding-right:20px; }
+
+
+/*下层-通用*/
+/*下层-banner*/
+.cbanner .ban_pic { padding-bottom:21%; height:0; }
+.cmain .cbanner img { position:static; margin:0; width:100%; height:auto; }
+/*二级导航*/
+.xc_nav_wrap { display:none; }
+/*面包屑*/
+.xc_nav { font-size:14px; }
+.breadcrumbs{display: none;}
+/*查看更多按钮*/
+.more_btn:focus { color:#5a5a5a; }
+
+/*新闻-列表*/
+.news_list .item { width:29%; }
+
+/*新闻-详情*/
+.widget-newsdetail-8 .n_right { padding-top:0; }
+.widget-newsdetail-8 ._detailPage_bottom { margin-top:10px; }
+.widget-newsdetail-8-tools ._tools { display:none; }
+.widget-newsdetail-8 ._detailPage_bottom ul { padding-right:3%; }
+
+/*关于我们*/
+.num_list li .num_wrap { padding-left:8%; padding-right:8%; }
+.num_wrap .num_t { font-size:42px; }
+.about .part04 .abt04_item ._num { font-size:70px; }
+
+/*2016-10-17*/
+/*产品-详情02*/
+.pro_det02 .det_bg .wrap, .pro_det02 .det_bg .cban_t_wrap { position:absolute; left:20px; margin-left:0; }
+.pro_det02 .det_bg .wrap { width:100%; }
+.pro_det02 .det_bg .pro_pic { right:20px; margin-right:0; }
+.pro_det02 .det_bg .pro_pic img { width:280px; height:300px; }
+
+/*2016-10-21*/
+/*关于我们*/
+.p01_wrap { height:auto; }
+
+
+/*20161104*/
+/*关于我们综合页*/
+.about .part03 .ptitle_wrap .ptitle_small{top: 82%;}
+.about .ptitle_wrap .ptitle_big{display: none;}
+.about .ptitle_wrap .ptitle_small{display: none;}
+.about .ptitle_wrap .ptitle{display: block;visibility: visible;line-height: 1em;}
+.about .ptitle_wrap ._pline{margin-top: 10px;}
+.about .part04 .abt04_item ._num{top:128px;}
+.about .part03 ._wd{max-height: 13.2em;}
+/*R&D页*/
+.research .ptitle_wrap .ptitle{visibility: visible;}
+.research .i_prolist .prolist li.cur{width: 46.6%}
+.research .i_prolist .prolist li{width: 13.3%}
+.research .ptitle_wrap .ptitle{line-height: 35px;}
+.research .part03 .ptitle_big{display: none;}
+.research .ptitle_wrap .ptitle_big{display: none;}
+/*合作伙伴*/
+.partner_abt .ptitle_wrap .ptitle{visibility: visible;}
+.partner_abt .ptitle_wrap .ptitle{line-height: 35px;}
+.partner_abt .part03 .ptitle_big{display: none;}
+.partner_abt .part02 ._desc{margin-bottom: 0;}
+/*联系我们*/
+.map_wrap{height: 0px;padding-bottom: 43.5%;}
+
+/*20161105*/
+/*fullpage页*/
+.full_box, .full_wrap, .full_section{height: auto;}
+.full_body, .full_section{overflow: auto;}
+.full_section{display: block;}
+.full_section .album_link{height: auto;width: auto;}
+.slide_wrap{width: auto;}
+.slide_wrap .slide_c{width: auto;height: auto;overflow: auto;}
+.full_section .album_link img{width: auto;}
+
+/*2016-11-09*/
+/*国际招聘-详情*/
+.job_det { width:100%; box-sizing:border-box; }
+.job_det{left:0;top: 0;margin: 0;height: 100%;}
+.job_det ._con{height: 100%;}
+/*产品-详情*/
+.pro_det03 .part01 .pro_pic{top: 0;}
+.pro_det03 .part01 .right .pro_det ._details{height: 7.2em;line-height: 1.8;}
+.pro_det03 .part01 .right .pro_det{margin-bottom: 26px;}
+.pro_det03 .part01 .right .txt_con{padding-top: 5px;padding-bottom: 28px;}
+/*相册页-fp_album*/
+.full_section { margin-bottom:40px; }
+.full_section.last { margin-bottom:0; }
+.full_section .fp_slide, .fp_bg { position:relative; left:auto; right:auto; top:auto; bottom:auto; }
+.full_section .fp_bg, .full_section .fp_bg ._con { right:auto; }
+.full_section .fp_bg ._con { float:none; width:90%; margin:0 5%; padding-top:30px; }
+.full_section .ptitle_wrap .ptitle { visibility:visible; line-height:1.6; color:#ffffff; }
+.full_section .fp_slide { padding-bottom:50%; height:0; }
+.full_section .album_link img { width:100%; max-width:100%; }
+.full_section .fp_slide .slide_nav { position:absolute; left:0; bottom:20px; width:100%; text-align:center; }
+.full_section .fp_slide .slide_nav > a { display:inline-block; margin:0 8px; width:12px; height:12px; font-size:0; border-radius:6px; background-color:#ffffff; }
+.full_section .fp_slide .slide_nav > a.on { width:36px; }
+.full_section ._down_arr { display:none; }
+.full_body .footer{ position:relative; left:auto; bottom:auto; width:100%; height:auto; }
+
+
+/* <768 */
+@media only screen and (max-device-width: 769px){
+
+/*footer*/
+.foot01 .tel_num { font-size:50px; }
+.foot01 .left { width:50%; }
+
+/*下层-通用*/
+.about .part03 .ptitle_big { font-size:40px; }
+.ptitle_wrap .ptitle, .ptitle_wrap .ptitle_small { font-size:20px; }
+.ptitle_wrap .ptitle_small { margin-top:-16px; }
+
+/*20161104*/
+/*关于我们综合页*/
+.about .part04 .abt04_item ._num{top: 77px;}
+.about .part03 ._wd{max-height: 16.2em;}
+.oh .drug_list .list_tit ._tit_con{height: 98px;}
+/*新闻页*/
+.news_list ul{width: 100%;}
+.news_list .item{position: static;width: 100%;}
+/*合作伙伴*/
+.partner_list ._cell ._txt_inn{padding-top: 14px;}
+.partner_list ._cell ._hd{font-size: 18px;margin-bottom: 0;}
+.partner_abt .part01 .cata_cell ._name{font-size: 17px;}
+/*20161105    */
+/*合作伙伴*/
+.partner_abt .cata_list ul>.shadow_box{width: 32%;}
+/*招聘*/
+.job-sear .t-pt{float: none;}
+.job-sear .t-area{width: 89%;}
+.job-sear .sear_input{width: 74.6%;}
+/*联系我们*/
+
+/*20161109*/
+.pro_det03 .part01 .left{float: none;width: 100%;margin-bottom: 20px;}
+.pro_det03 .part01 .right{float: none;width: 100%;}
+.pro_det03 .part01 .pro_pic{top: 13%;left: 20.5%;}
+}
+
