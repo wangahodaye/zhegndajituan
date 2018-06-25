@@ -5,5 +5,5 @@
 发现这个网站做得还可以，，直接用整站下载工具把整个站点全部下载下来。。。
 用于以后作参考
 
-项目地址 ：  https://github.io/wangahodaye/zhegndajituan/
+项目地址 ：  https://wangahodaye.github.io/zhegndajituan/
 
